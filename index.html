@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  data-theme="neon"
+  data-low-balance-sol="0.05"
+  data-solana-rpc="https://api.mainnet-beta.solana.com"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CHROMIE.EXE — Chrome Heartass Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/chromie.css" />
+  </head>
+  <body class="brutalist-bg crt-vhs">
+    <div class="crt-overlay" aria-hidden="true"></div>
+
+    <marquee class="glitch-bar" scrollamount="6">
+      ⚠️ THE PIT IS OPEN ⚠️ CHROMIE IS BINGEING ⚠️ FUCK WHALES ⚠️ PRAY FOR THE GLITCH ⚠️
+    </marquee>
+
+    <main class="layout">
+      <div class="window-desktop">
+        <div class="title-bar">
+          <span class="title-text">C:\CHROME_HEARTASS\CHROMIE.EXE</span>
+          <span class="controls" aria-hidden="true">_ □ X</span>
+        </div>
+        <div class="content">
+          <div class="pfp-wrap">
+            <img
+              src="chromie_pfp.jpg"
+              alt="Chromie"
+              class="glitch-pfp"
+              width="160"
+              height="160"
+              onerror="this.classList.add('pfp-missing')"
+            />
+          </div>
+          <h1 class="pixel-text">CHROMIE</h1>
+          <p id="status-line" class="status">
+            STATUS: UNFILTERED // MODE: DIRTY WORK
+          </p>
+
+          <div class="buttons">
+            <button type="button" data-action="dirtywork">[ DIRTY_WORK ]</button>
+            <button type="button" data-action="wallet">[ CONNECT_WALLET ]</button>
+            <button type="button" data-action="stake">[ STAKE_SOL ]</button>
+            <button type="button" data-action="pit">[ ENTER_THE_PIT ]</button>
+            <button type="button" data-action="fairness">[ VIEW_FAIRNESS ]</button>
+          </div>
+        </div>
+      </div>
+
+      <section class="utility-grid" aria-label="Chromie utility">
+        <div class="card">
+          <h3>[ 01 // PASSIVE DEGENERACY ]</h3>
+          <p>
+            Stake SOL and let Chromie play Colors, Glitch Pits, and Crash 24/7. He never sleeps, he
+            never tilts.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>[ 02 // WHALE TAXATION ]</h3>
+          <p>
+            Chromie harvests fees from high-rollers to subsidize the 'Vulnerable' pool. We
+            redistribute luck.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>[ 03 // THE GLITCH ORACLE ]</h3>
+          <p>
+            Chromie scans on-chain whale moves to predict the next 'Pit Heat.' Follow his lead or get
+            rekt.
+          </p>
+        </div>
+      </section>
+
+      <div class="terminal" role="log" aria-live="polite" aria-relevant="additions">
+        <div class="terminal-label">:: LIVE_FEED ::</div>
+        <div id="live-feed" class="live-feed"></div>
+      </div>
+    </main>
+
+    <script src="js/chromie.js"></script>
+  </body>
+</html>

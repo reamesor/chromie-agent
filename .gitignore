@@ -1,0 +1,9 @@
+.env
+.env.local
+.env*.local
+.vercel
+node_modules
+chromie-lite/node_modules
+
+# Optional local clone of elizaOS (huge nested repo) — clone separately if needed
+eliza/
